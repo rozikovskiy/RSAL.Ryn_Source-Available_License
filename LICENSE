@@ -1,4 +1,119 @@
-Ryn Source-Available License (RSAL) v1.2
+Ryn Source-Available License (RSAL) v1.3
+
+Effective Date: September 3 1, 2026
+Last Updated: September 5, 2026
+Copyright (c) 2026 Ryn Corporation. All rights reserved.
+
+1. ACCEPTANCE & DEFINITIONS
+1.1 Acceptance
+By downloading, installing, copying, modifying, or using this Software in any manner, you ("Licensee") accept all terms and conditions of this License. If you do not agree with these terms, do not use the Software.
+
+1.2 Key Definitions
+* Derivative Work: Any modification, translation, adaptation, or structural re-mapping of the Software that requires creative intellectual effort beyond mechanical copying.
+* Standalone Software: The Software as originally distributed, without integration into a larger project.
+* Substantial Portion: Code constituting more than 60% of the total codebase, determined by automated abstract syntax tree (AST) analysis, structural identification, or raw source line count (excluding standard third-party libraries and generated assets), whichever yields the higher metric.
+* Closely Related Domain: Any software project, library, or tool providing overlapping core logic, parsing algorithms, or structural toolchain mechanisms, regardless of the primary programming language used.
+* Public Distribution: Making the Software or a Derivative Work available to third parties through any channel (GitHub, package managers, downloadable links, network services, etc.).
+* Commercial Use: Any use for which you receive direct or indirect monetary compensation, commercial advantage, or commercial benefit.
+
+2. GRANT OF LICENSE
+2.1 Permissive Use Rights
+Licensee is granted a worldwide, non-exclusive, royalty-free, perpetual license to:
+* Use the Software for any purpose, including private projects, commercial products, and closed-source applications
+* Copy the Software and create modifications or derivative works
+* Integrate the Software into proprietary, commercial, or closed-source codebases without open-sourcing surrounding code
+* Distribute Derivative Works in closed-source form, subject to Section 3 (Attribution & Branding)
+
+2.2 No Sublicensing
+Licensee may NOT sublicense, lease, or grant rights to third parties without explicit written permission from Ryn Corporation. Redistribution is only permitted under the terms of this License.
+
+2.3 Perpetual License
+This License does not expire and continues for the lifetime of the copyright holder unless terminated under Section 5.
+
+3. ATTRIBUTION & BRANDING REQUIREMENTS
+3.1 When Attribution Is Required
+Attribution is required in any of the following scenarios:
+* Substantial Integration: The Software constitutes more than 60% of your project's total codebase (by AST analysis, structural identification, or line count)
+* Derivative Public Distribution: You publicly distribute a modified version or derivative work of the Software
+* Closely Related Domain: Your project operates in a closely related domain, and the Software is a core dependency or auxiliary technology
+
+3.2 Mandatory Attribution Form
+When attribution is required, you must include all of the following:
+* Acknowledgment: Clear written statement: "This project uses [or: includes, is built upon] software originally created by Ryn Corporation."
+* Copyright Notice: "Copyright (c) © 2026 Ryn Corporation. All rights reserved."
+* License Disclosure: A link to this license and a link to the source code repository.
+* Author Credit: The name(s) of the original author(s) in a prominent location.
+* Placement: Visible in the project README file (if one exists), documentation (if published), "Authors" or "About" section (for distributed applications), license file or legal notices, and source code headers (for derivative works).
+
+3.3 Derivative Works & Forks
+Any publicly distributed derivative work must:
+* Explicitly state that it is a modification, fork, or variant of the original software
+* Maintain prominent attribution to the original authors
+* Link to the original repository in the documentation
+
+3.4 Attribution Exemptions
+Attribution is not required if:
+* The Software constitutes less than 60% of your code
+* You use the software as an unmodified dependency (library) in a larger project
+* You do not publicly distribute the software or derivative works
+* Your project does not belong to a closely related domain or serve a clearly distinct purpose
+
+4. RESTRICTIONS
+4.1 Prohibited Actions
+Licensee may NOT:
+* Renaming to Original: Repackaging, renaming, or redistributing the standalone software as a new, independent competing product, falsely claiming its originality or denying its origins
+* Sole Authorship Claims: Claiming sole or primary authorship of the underlying software structure when the software constitutes the majority of the work
+* Trademark Infringement: Using trademarks, trade names, or corporate symbols owned by Ryn Corporation in a manner that creates the impression of endorsement, affiliation, or ownership without written permission.
+* License Violation: Distributing the software under more restrictive terms or conditions that contradict this License.
+* Removal of Notices: Removing, obscuring, or modifying copyright notices, license statements, or attribution requirements in distributed versions.
+
+4.2 Competitive Exploitation and License Evasion
+Creating a direct competing product based on the software and publicly distributing it without clear attribution constitutes a material breach of this License. Any intentional code obfuscation, automated transpilation, or structural re-mapping designed primarily to bypass the 60% codebase attribution threshold or conceal the structural origin from the software also constitutes an immediate material breach.
+
+5. TERMINATION OF LICENSE
+5.1 Automatic Termination of License
+This License automatically terminates if the Licensee:
+* Violates any of the restrictions specified in Section 4
+* Fails to ensure compliance with the required attribution specified in Section 3 when publicly distributing the Software
+* Misrepresents the origin or authorship of Derivative Works
+
+5.2 Consequences of License Termination
+Upon termination of the license, all rights granted herein immediately cease. The Licensee must, within fourteen (14) business days, completely remove and cease distribution of all instances of the software or derivative works from all public and private repositories, package managers, and production environments. The Licensee retains ownership of works already created, but may not distribute new copies, and the copyright holder may pursue legal remedies.
+
+5.3 Reinstatement
+The Licensee may seek reinstatement of the License by notifying Ryn Corporation of the corrective measures taken and requesting written permission.
+
+6. INTELLECTUAL PROPERTY
+6.1 Ownership
+Ryn Corporation retains all rights, title, and interest in and to the software, including all intellectual property rights. This License grants no ownership rights, only rights of use.
+
+6.2 Improvements and Feedback
+Any modifications, improvements, or feedback provided by you to Ryn Corporation may be incorporated into future versions of the software, and Ryn Corporation may do so without any compensation or obligation to you.
+
+7. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. THE LICENSEE DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE, UNINTERRUPTED, OR SECURE, OR THAT ANY DEFECTS IN THE SOFTWARE WILL BE CORRECTED. ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH THE LICENSEE.
+
+8. LIMITATION OF LIABILITY
+IN NO EVENT SHALL RYN CORPORATION, ITS AUTHORS, OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, LOST PROFITS, REVENUE, DATA, OR BUSINESS OPPORTUNITIES, OR ANY CLAIMS ARISING FROM THE USE, MISUSE, OR INABILITY TO USE THE SOFTWARE, EVEN IF RYN CORPORATION HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION APPLIES TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
+
+9. GOVERNING LAW AND DISPUTE RESOLUTION
+This License shall be governed by and construed in accordance with the laws of [JURISDICTION] (to be determined by Ryn Corporation), without regard to conflict of law principles. Any disputes arising from this License shall first be subject to good-faith settlement through negotiation. In the event of non-resolution, disputes shall be submitted to binding arbitration or mediation at the discretion of Ryn Corporation.
+
+10. GENERAL PROVISIONS
+10.1 Entire Agreement
+This License constitutes the entire agreement between the Licensee and Ryn Corporation regarding the software and supersedes all prior understandings, both written and oral.
+
+10.2 Severability
+If any provision of this License is found to be invalid or unenforceable, such provision shall be modified to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.
+
+10.3 No Waiver
+Failure by Ryn Corporation to enforce any provision does not constitute a waiver of that provision or any other right.
+
+10.4 Amendments
+Ryn Corporation reserves the right to update this License. Updates will be posted in the repository with an updated "Last Updated" date. Continued use after an update signifies acceptance of the new terms.
+
+10.5 Contact
+For inquiries, commercial license requests, or disputes, please contact: [EMAIL/CONTACT INFO]Ryn Source-Available License (RSAL) v1.2
 
 Effective Date: January 1, 2026
 Last Updated: September 4, 2026
